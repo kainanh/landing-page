@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+header,
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+.one{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+}
+
+.hero{
+    width: 400px;
+    margin-bottom: 10px;
+}
+.hero-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.hero .text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+
+.placeholder{
+    background-color: grey;
+    color: white;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second{
+    text-align: center;
+    padding: 30px 100px;
+}
+
+.information-title{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.content{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 30px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-placeholder{
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.third{
+    background-color: #e5e7eb;
+    padding: 30px 150px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    
+    padding: 0;
+}
+
+.author{
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fourth{
+    padding: 100px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 25px 75px;
+}
+
+.banner-title{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.banner-info{
+    color: #e5e7eb;
+}
+
+.banner-button{
+    border: 2px solid #f9faf8;
+}
+
+footer{
+    justify-content: center;
+}
